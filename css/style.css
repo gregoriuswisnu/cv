@@ -1,0 +1,135 @@
+body{
+    font-family: "Montserrat-Black", sans-serif;
+    color: #fff;
+    line-height: 1.5;
+}
+
+#title{
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/background_img.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+
+.container-fluid{
+    padding: 2% 5% 10%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+#about-me{
+    width: 100%;
+    color: black;
+}
+
+.profile-img{
+    width: 15%;
+    margin: 3px 0 30px 0;
+}
+
+.description{
+    text-align: center;
+    width: 100%;
+}
+
+#education{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/education.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.edu-title{
+    margin-top: 2%;
+    font-size: 4rem;
+}
+
+.edu-list{
+    padding: 5% 0;
+    text-align: center;
+}
+
+.edu-logo{
+    width: 50%;
+    margin: 1rem 0 2rem;
+    
+}
+.yahya{
+    width: 30%;
+    border-radius: 50%;
+}
+
+#skills{
+    color: black;
+    text-align: center ;
+}
+.skill-title{
+    margin: 5% auto;
+    font-size: 4rem;
+}
+
+.icon{
+    margin: 5% auto;
+}
+
+#experience{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/experience.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.experience-title{
+    margin: 5% 0;
+    font-size: 4rem;
+}
+
+#contact{
+    text-align: center;
+    color: black;
+}
+
+.contact-title{
+    margin: 5% 0;
+}
+
+.btn{
+    margin: 5% 0;
+}
+.download{
+    color: white;
+    text-decoration: none;
+}
+.download:hover{
+    color: black;
+}
+#footer{
+    text-align: center;
+}
+
+.footer-logo{
+    margin: 0 30px;
+}
+.fa-linkedin{
+    color: white;
+}
+.fa-server{
+    color: white;
+}
+
+.fa-instagram{
+    color: white;
+}
+.bottom-container{
+    background-color: #534e52;
+    padding: 50px 0 20px;
+    margin: 0 5px;
+}
+.copyright{
+    margin: 2%;
+}

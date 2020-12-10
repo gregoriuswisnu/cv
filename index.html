@@ -1,65 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gregorius Wisnu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/3fe5753f64.js" crossorigin="anonymous"></script>
+
+    <!-- script -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
 </head>
+
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img src="./img/wisnu_profile_circle.png" alt="profile wisnu">
-            </td>
-            <td>
-                <h1>Gregorius Wisnu</h1>
-                <p>
-                    <em>
-                        Student at <a href="#">Binus University</a>
-                    </em>
+    <section id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href=""><img src="./img/logo.png" alt="logo-picture"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Hello, Call Me Wisnu</h1>
+            <br>
+            <h2>I'm Student at Binus University</h2>
+            <h2>and interested in Web Developing</h2>
+        </div>
+        </div>
+    </section>
+    <section id="about-me">
+        <div class="container-fluid">
+
+            <div class="description">
+
+                <img class="profile-img" src="./img/profile2.png" alt="profile-image">
+                <h1>About Me</h1>
+                <p>I'm a student at Binus University, and currently i'm looking for an internship. I like playing games
+                    and watching movie. I'm a fast learner and also responsible
                 </p>
-                <p><strong>Saya seorang web developer. Saya menyukai tantangan dan menyukai wanita</strong></p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3><strong>Education</strong></h3>
-    <ul>
-        <li> <a href="https://binus.ac.id/">Binus University</a></li>
-        <li>Yahya Christina School</li>
-    </ul>
-    <hr>
-    <h3>Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2019-Current</td>
-                <td>Chief Executive Melania Catholic Youth Organization</td>
-            </tr>
-        </tbody>
-        <tfoot>
-        </tfoot>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>HTML</td>
-            <td>&#127775;&#127775;&#127775;</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>&#127775;&#127775;&#127775;</td>
-        </tr>
-    </table>
-    <hr>
-    <a href="hobby.html">My hobbies</a>
-    <a href="contact.html">Contact Me</a>
+            </div>
+
+        </div>
+    </section>
+    <section id="education">
+        <div class="container-fluid">
+            <h1 class="edu-title">Education</h1>
+            <div class="row skills-list">
+                <div class=" row ">
+                    <div class="col-lg-6 edu-sec">
+                        <img class="edu-logo" src="./img/binus.png" alt="binus-logo">
+                        <h2>Bina Nusantara University</h2>
+                        <h3>2018-Current</h3>
+                        <p>Informatics - Undergraduate program</p>
+                    </div>
+                    <div class="col-lg-6 edu-sec">
+                        <img class="edu-logo yahya" src="./img/download.jpeg" alt="binus-logo">
+                        <h2>Yahya Christian Schoold</h2>
+                        <h3>2015-2016</h3>
+                        <p>Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container-fluid">
+            <h1 class="skill-title">Skills</h1>
+            <div class="row skills-list">
+                <div class="col-lg-4 feature-sec">
+                <i class="fab fa-html5 fa-3x icon"></i>
+                  <h3 class="skills-title">HTML</h3>
+                  <p class="skills-desc">I'm clearly understand about basic HTML and intermediate HTML.</p>
+                </div>
+                <div class="col-lg-4  ">
+                    <i class="fab fa-css3-alt fa-3x icon"></i>
+                  <h3 class="skills-title">CSS</h3>
+                  <p class="skills-desc">CSS basics and intermediate</p>
+                </div>
+                <div class="col-lg-4  ">
+                    <i class="fab fa-js-square fa-3x icon"></i>
+                  <h3 class="skills-title">Javascript</h3>
+                  <p class="skills-desc">Currently I'm also studying about Javascript</p>
+                </div>
+                <div class="col-lg-4  ">
+                    <i class=" fas fa-terminal fa-3x icon"></i>
+                  <h3 class="skills-title">C++</h3>
+                  <p class="skills-desc">C++ is my first programming languange to learn, learning about the basics and also OO programming</p>
+                </div>
+                <div class="col-lg-4  ">
+                    <i class=" fab fa-unity fa-3x icon"></i>
+                  <h3 class="skills-title">Unity</h3>
+                  <p class="skills-desc">I also learning unity to make simple game and also make an simple AR just for fun</p>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="container-fluid">
+            <h1 class="experience-title">Experience</h1>
+            <div class="row experience-list">
+                <div class="col-lg-4  ">
+                    <i class="fas fa-hands-helping fa-5x icon"></i>
+                  <h3 class="skills-title">Chief Executive</h3>
+                  <p class="skills-desc">Melania Catholic Youth Organization</p>
+                  <p>2019 - Current</p>
+                </div>
+                <div class="col-lg-4  ">
+                  <i class="fas fa-terminal fa-5x icon"></i>
+                  <h3 class="skills-title">ICPC Global</h3>
+                  <p class="skills-desc">as participant</p>
+                  <p>Nov 2020</p>
+                </div>
+                <div class="col-lg-4  ">
+                    <i class="far fa-money-bill-alt fa-5x icon"></i>
+                    <h3 class="skills-title">Bounty Hunter</h3>
+                    <p class="skills-desc">as bitcointalk.org</p>
+                    <p>2017 - 2019</p>
+                  </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid">
+            <h1 class="contact-title">Contact Me</h1>
+            <p>If you are interested to hire intern and also interested in my work please reach me by click the Contact Me button below</p>
+            <button type="button" class="btn btn-secondary btn-lg"><a class="download" href="mailto:gregorius.tiba@binus.ac.id">Contact Me</a></button>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="bottom-container">
+            <a href="https://www.linkedin.com/in/gregorius-wisnu-6889aa144/">
+                <i class="fab fa-linkedin fa-3x footer-logo" aria-hidden="true"></i>
+            </a>
+            
+            
+            <a href="https://www.instagram.com/gregorius.wisnu/" >
+                <a href="https://www.linkedin.com/in/gregorius-wisnu-6889aa144/">
+                    <i class="fab fa-instagram fa-3x footer-logo" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/gregorius.wisnu/" >
+                    <a href="index.html">
+                        <i class="fas fa-server fa-3x footer-logo" aria-hidden="true"></i>
+                    </a>
+            
+            <p class="copyright">© 2020 Gregorius Wisnu</p>
+        </div>
+    </section>
 </body>
+
 </html>
