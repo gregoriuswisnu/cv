@@ -88,6 +88,15 @@ body{
     margin: 5% 0;
     font-size: 4rem;
 }
+#project{
+    text-align: center;
+    color: black;
+}
+.project-title{
+    margin: 5% 0;
+    font-size: 4rem;
+}
+
 
 #contact{
     text-align: center;
